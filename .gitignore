@@ -1,0 +1,39 @@
+# Binaries
+bin/
+hass
+hass.exe
+*.exe
+
+# Test coverage
+coverage.out
+coverage.html
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Config files (may contain secrets)
+config.yaml
+.hass-cli/
+
+# Build artifacts
+dist/
+*.tar.gz
+*.zip
+
+# Go workspace files
+go.work
+go.work.sum
+
+# Temporary files
+*.tmp
+*.temp
+.env
+.env.local

@@ -1,0 +1,38 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find:*)",
+      "Bash(ls:*)",
+      "Bash(go build:*)",
+      "Bash(./hass help)",
+      "Bash(./hass version)",
+      "Bash(./hass config help)",
+      "Bash(./hass config)",
+      "Bash(go vet:*)",
+      "Bash(golangci-lint run:*)",
+      "Bash(go test:*)",
+      "Bash(./bin/hass:*)",
+      "Bash(make:*)",
+      "Bash(go install:*)",
+      "Bash($HOME/go/bin/golangci-lint run ./...)",
+      "WebFetch(domain:developers.home-assistant.io)",
+      "Bash(./hass config test)",
+      "Bash(./hass status)",
+      "Bash(./hass status lights)",
+      "Bash(./hass debug lights)",
+      "Bash(./hass debug match office lights)",
+      "Bash(./hass office lights on)",
+      "Bash(./hass config show)",
+      "Bash(./hass debug threshold 0.65)",
+      "Bash(./hass office lights on --verbose)",
+      "Bash(./hass office lights off)",
+      "Bash(./hass henry office on)",
+      "Bash(./hass \"henry's office\" lights on)",
+      "Bash(./hass living lights on)",
+      "Bash(./hass office lights toggle)",
+      "Bash(go get:*)",
+      "Bash(./hass:*)"
+    ],
+    "deny": []
+  }
+}
